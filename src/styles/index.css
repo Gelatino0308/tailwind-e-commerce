@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --text-*: initial;
+  --text-h1: 48px;
+  --text-h1--line-height: 120%;
+  --text-h2: 40px;
+  --text-h2--line-height: 120%;
+  --text-h3: 33px;
+  --text-h3--line-height: 120%;
+  --text-h4: 28px;
+  --text-h4--line-height: 120%;
+  --text-h5: 23px;
+  --text-h5--line-height: 120%;
+  --text-h6: 19px;
+  --text-h6--line-height: 120%;
+  --text-p: 16px;
+  --text-p--line-height: 150%;
+  --text-sm: 13px;
+  --text-sm--line-height: 120%;
+  --text-xs: 11px;
+  --text-xs--line-height: 120%;
+
+  --font-*: initial;
+  --font-inter: 'Inter', 'sans-serif'; 
+
+  --color-violet: #7B50D9;
+  --color-gray: #7C7C7C;
+  --color-black: #252525;
+  --color-violet-grayish: #F4EDFB;
+  --color-beige: #D4BD9E;
+  --color-cyan: #0B7BB6;
+  --color-light-blue: #CEDEEB;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    src: url('../assets/Inter-VariableFont.ttf') format('truetype');
+    font-display: swap;
+    font-weight: 100 900;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
