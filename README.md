@@ -1,12 +1,41 @@
-# React + Vite
+# 🛍️ GDG Tailwind CSS E-Commerce Web Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An e-commerce web page built with React and Tailwind CSS by imitating a figma design, for the GDG Web Development Study Jam. This project demonstrates how to create a modern, mobile-friendly online store using Tailwind's utility-first CSS framework.
 
-Currently, two official plugins are available:
+## ⚙️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React 19
+- 🌊 Tailwind CSS 4
+- ⚡ Vite
+- 📦 ES Modules
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- 📌 Node.js (v18 or higher recommended)
+- 📌 npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/tailwind-e-commerce.git
+   cd tailwind-e-commerce
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to http://localhost:5173
+
+## 📝 License
+
+This project is intended for educational purposes as part of the GDG Web Development Team Study Jam.
