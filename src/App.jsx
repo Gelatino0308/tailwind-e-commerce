@@ -1,7 +1,7 @@
 import './styles/App.css'
 import Nav from './Nav.jsx'
 import Hero from './Hero.jsx'
-// import Products from './Products.jsx'
+import Products from './Products.jsx'
 
 export default function App() {
 
@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Nav />
       <Hero />
-      {/* <Products /> */}
+      <Products />
     </>
   )
 } 
