@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+.thumbnail {
+  @apply w-[99.82px] h-[99.82px] rounded-[8.07px] object-cover 
+        cursor-pointer lg:w-[198px] lg:h-[198px] lg:rounded-[16px]
+}
+
 @theme {
   --text-*: initial;
   --text-h1: 48px;
